@@ -4,12 +4,31 @@ body {
   background-color: #f5f5f5;
 }
 
+nav {
+  background-color: #4b0082;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  padding: 10px;
+  display: block;
+}
+
 h1 {
   color: #4b0082;
 }
 
 main {
   max-width: 840px;
+}
+
+main img {
+  width: 150px;
+  height: auto;
+  border: 2px solid #4b0082;
+  padding: 5px;
+  box-shadow: 3px 3px 5px #888;
 }
 
 aside {
@@ -24,11 +43,6 @@ aside {
 
 aside img {
   width: 200px;
-  height: auto;
-}
-
-main img {
-  width: 150px;
   height: auto;
 }
 
