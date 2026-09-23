@@ -84,7 +84,7 @@ article {
   color: white;
 }
 
-.hero article {
+.hero-text {
   position: absolute;
   bottom: 20px;
   left: 30px;
@@ -94,7 +94,7 @@ article {
   padding: 10px;
 }
 
-.hero article img {
+.hero-text img {
   float: right;
   width: 125px;
   margin: 10px;
