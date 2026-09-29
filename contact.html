@@ -95,18 +95,18 @@
         <fieldset>
           <legend>What can we help you with?</legend>
 
-          <label>
-            <input type="radio" name="purpose" value="general-inquiry" required>
+          <label for="general-inquiry">
+            <input type="radio" id="general-inquiry" name="purpose" value="general-inquiry" required>
             General Inquiry
           </label>
 
-          <label>
-            <input type="radio" name="purpose" value="reservation-question">
+          <label for="reservation-question">
+            <input type="radio" id="reservation-question" name="purpose" value="reservation-question">
             Reservation Question
           </label>
 
-          <label>
-            <input type="radio" name="purpose" value="website-suggestion">
+          <label for="website-suggestion">
+            <input type="radio" id="website-suggestion" name="purpose" value="website-suggestion">
             Website Suggestion
           </label>
 
@@ -115,8 +115,8 @@
         <label for="message">Message:</label>
         <textarea id="message" name="message" rows="6" required></textarea>
 
-        <label class="newsletter">
-          <input type="checkbox" name="newsletter" value="yes">
+        <label class="newsletter" for="newsletter">
+          <input type="checkbox" id="newsletter" name="newsletter" value="yes">
           Please subscribe me to the monthly newsletter
         </label>
 
