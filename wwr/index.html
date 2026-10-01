@@ -1,48 +1,100 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Home page for Folake-Folarin Akinduro, a WDD 130 student from Lagos, Nigeria, learning web development and web fundamentals.">
-  <meta name="author" content="Folake-Folarin Akinduro">
-  <title>Folake-Folarin Akinduro | WDD 130</title>
-  <link rel="stylesheet" href="styles/styles.css">
+  <meta name="description"
+    content="River Rush Rafting offers exciting, safe, and unforgettable whitewater rafting adventures.">
+  <meta name="author" content="Folake Folarin Akinduro">
+  <title>River Rush Rafting | Home</title>
+  <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
+
   <header>
-    <nav>
-      <a href="#">Home</a>
-      <a href="wwr/">Rafting Website</a>
-      <a href="https://www.facebook.com/">Facebook</a>
-      <a href="https://www.linkedin.com/">LinkedIn</a>
-</nav>
-  </header>
+  <img src="images/logo.png" alt="River Rush Rafting Logo">
 
-  <div class="grid">
-    <main>
-      <h1>Folake-Folarin Akinduro | WDD 130</h1>
-      <img src="images/profile.jpg" alt="Hello, my name is Folake-Folarin Akinduro" width="200">
-      <p>
-        Hello! My name is Folake-Folarin Akinduro. I am from Lagos, Nigeria. I am currently
-        learning web development and I enjoy learning new skills and working
-        with technology.
-      </p>
-    </main>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="trips.html">Trips</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+</header>
 
-    <aside>
-      <h2>Lagos, Nigeria</h2>
-      <img src="images/lagos.jpg" alt="Lagos, Nigeria">
-      <p>
-        Lagos is a vibrant city in southwestern Nigeria and one of the country's major
-        economic and cultural centers. It is known for its busy markets, beautiful beaches,
-        diverse communities, and opportunities in business, technology, and entertainment.
-      </p>
-    </aside>
+<main>
+  <div class="hero">
+    <img src="images/hero.jpg" alt="People enjoying a whitewater rafting adventure">
+
+    <h1>River Rush Rafting</h1>
   </div>
 
-  <footer>
-    <p>&copy; 2026 ❖ Folake-Folarin Akinduro ❖ Nigeria</p>
-  </footer>
+  <section class="newsletter">
+  <h2>Stay Updated!</h2>
+  <p>Sign up for news and special rafting offers.</p>
+
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <button type="submit">Subscribe</button>
+  </form>
+</section>
+
+<section class="trips-cta">
+  <h2>Ready for an Adventure?</h2>
+  <p>Explore our exciting rafting trips and choose your next adventure.</p>
+  <a href="trips.html">View Our Trips</a>
+</section>
+
+<section class="adventures">
+  <h2>Adventure Awaits You!</h2>
+
+  <div class="adventure-gallery">
+
+    <figure>
+      <img src="images/adventure1.jpg" alt="Rafting adventure on the river">
+      <figcaption>
+        <h3>Los Dientes del Diablo</h3>
+        <p>Experience exciting rapids and enjoy an unforgettable river adventure.</p>
+      </figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/adventure2.jpg" alt="Whitewater rafting adventure">
+      <figcaption>
+        <h3>Big Mallard</h3>
+        <p>Enjoy a thrilling rafting experience surrounded by beautiful scenery.</p>
+      </figcaption>
+    </figure>
+
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 River Rush Rafting | Folake Folarin Akinduro</p>
+
+  <nav class="socialmedia">
+    <a href="https://facebook.com">
+      <img src="images/facebook.svg" alt="Facebook Icon">
+    </a>
+
+    <a href="https://linkedin.com">
+      <img src="images/linkedin.svg" alt="LinkedIn Icon">
+    </a>
+
+    <a href="https://instagram.com">
+      <img src="images/instagram.svg" alt="Instagram Icon">
+    </a>
+  </nav>
+</footer>
+
 </body>
 </html>
